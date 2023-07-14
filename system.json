@@ -1,6 +1,6 @@
 {
   "id": "to-change",
-  "title": "To Change",
+  "title": "To Change (Unofficial)",
   "description": "<p>A FoundryVTT system implementation for playing the <a href='https://usducktape.itch.io/to-change'>To Change</a> system.</p>",
   "version": "0.1",
   "compatibility": {
