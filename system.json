@@ -1,0 +1,25 @@
+{
+  "id": "to-change",
+  "title": "To Change",
+  "description": "<p>A FoundryVTT system implementation for playing the <a href='https://usducktape.itch.io/to-change'>To Change</a> system.</p>",
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "Veloxization",
+      "url": "https://www.velobun.xyz/",
+      "email": "foundry@velobun.xyz",
+      "discord": "veloxization"
+    }
+  ],
+  "esmodules": [],
+  "languages": [],
+  "socket": false,
+  "url": "https://github.com/Veloxization/to-change",
+  "manifest": "https://raw.githubusercontent.com/Veloxization/to-change/main/system.json",
+  "download": "https://github.com/Veloxization/to-change/releases"
+}
