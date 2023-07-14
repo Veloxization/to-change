@@ -1,0 +1,38 @@
+{
+    "Actor": {
+        "types": [
+            "character",
+            "npc"
+        ],
+        "templates": {
+            "common": {
+            }
+        },
+        "character": {
+            "templates": ["common"]
+        },
+        "npc": {
+        }
+    },
+    "Item": {
+        "types": [
+            "item",
+            "change",
+            "damage"
+        ],
+        "templates": {
+            "common": {
+                "description": ""
+            }
+        },
+        "item": {
+            "templates": ["common"]
+        },
+        "change": {
+            "templates": ["common"]
+        },
+        "damage": {
+            "templates": ["common"]
+        }
+    }
+}
