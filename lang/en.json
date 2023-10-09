@@ -1,0 +1,55 @@
+{
+    "ACTOR.TypeCharacter": "Player Character",
+    "ACTOR.TypeCharacterPl": "Player Characters",
+    "ACTOR.TypeNpc": "Non-Player Character",
+    "ACTOR.TypeNpcPl": "Non-Player Characters",
+
+    "ITEM.TypeItem": "Item",
+    "ITEM.TypeItemPl": "Items",
+    "ITEM.TypeChange": "Change",
+    "ITEM.TypeChangePl": "Changes",
+    "ITEM.TypeDamage": "Damage",
+    "ITEM.TypeDamagePl": "Damage",
+
+    "TC.Sheets.CharacterSheet": "Character Sheet",
+
+    "TC.Name": "Character Name",
+    "TC.Gender": "Character Gender",
+    "TC.Pronouns": "Character Pronouns",
+
+    "TC.MentalAptitude": "Mental Aptitude",
+    "TC.MentalFortitude": "Mental Fortitude",
+    "TC.PhysicalAptitude": "Physical Aptitude",
+    "TC.PhysicalFortitude": "Physical Fortitude",
+
+    "TC.Changed": "Changed",
+    "TC.Damaged": "Damaged",
+    "TC.Permanence": "Permanence",
+
+    "TC.FaceCard": "Face Card",
+    "TC.RisingCard": "Rising Card",
+    "TC.FallingCard": "Falling Card",
+
+    "TC.TheFool": "The Fool",
+    "TC.TheMagician": "The Magician",
+    "TC.TheHighPriestess": "The High Priestess",
+    "TC.TheEmpress": "The Empress",
+    "TC.TheEmperor": "The Emperor",
+    "TC.TheHierophant": "The Hierophant",
+    "TC.TheLovers": "The Lovers",
+    "TC.TheChariot": "The Chariot",
+    "TC.Strength": "Strength",
+    "TC.TheHermit": "The Hermit",
+    "TC.TheWheelOfFortune": "Wheel of Fortune",
+    "TC.Justice": "Justice",
+    "TC.TheHangedMan": "The Hanged Man",
+    "TC.Death": "Death",
+    "TC.Temperance": "Temperance",
+    "TC.TheDevil": "The Devil",
+    "TC.TheTower": "The Tower",
+    "TC.TheStar": "The Star",
+    "TC.TheMoon": "The Moon",
+    "TC.TheSun": "The Sun",
+    "TC.Judgement": "Judgement",
+    "TC.TheWorld": "The World"
+}
