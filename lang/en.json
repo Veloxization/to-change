@@ -1,15 +1,15 @@
 {
-    "ACTOR.TypeCharacter": "Player Character",
-    "ACTOR.TypeCharacterPl": "Player Characters",
-    "ACTOR.TypeNpc": "Non-Player Character",
-    "ACTOR.TypeNpcPl": "Non-Player Characters",
+    "TYPES.Actor.character": "Player Character",
+    "TYPES.Actor.characterPl": "Player Characters",
+    "TYPES.Actor.npc": "Non-Player Character",
+    "TYPES.Actor.npcPl": "Non-Player Characters",
 
-    "ITEM.TypeItem": "Item",
-    "ITEM.TypeItemPl": "Items",
-    "ITEM.TypeChange": "Change",
-    "ITEM.TypeChangePl": "Changes",
-    "ITEM.TypeDamage": "Damage",
-    "ITEM.TypeDamagePl": "Damage",
+    "TYPES.Item.item": "Item",
+    "TYPES.Item.itemPl": "Items",
+    "TYPES.Item.change": "Change",
+    "TYPES.Item.changePl": "Changes",
+    "TYPES.Item.damage": "Damage",
+    "TYPES.Item.damagePl": "Damage",
 
     "TC.Sheets.CharacterSheet": "Character Sheet",
 
