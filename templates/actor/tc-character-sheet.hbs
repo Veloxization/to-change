@@ -1,14 +1,14 @@
 <form class="actor-sheet {{cssClass}}" autocomplete="off">
     <header class="sheet-header">
         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
-        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'TC.Name' }}"/></h1>
+        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'TC.Character.Name' }}"/></h1>
 
         <ul class="summary flexrow">
             <li class="gender">
-                <input type="text" name="system.details.gender" placeholder="{{ localize 'TC.Gender' }}"/>
+                <input type="text" name="system.details.gender" placeholder="{{ localize 'TC.Character.Gender' }}"/>
             </li>
             <li class"species">
-                <input type="text" name="system.details.pronouns" placeholder="{{ localize 'TC.Pronouns' }}"/>
+                <input type="text" name="system.details.pronouns" placeholder="{{ localize 'TC.Character.Pronouns' }}"/>
             </li>
         </ul>
     </header>
