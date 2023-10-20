@@ -16,7 +16,9 @@
       "discord": "veloxization"
     }
   ],
-  "esmodules": [],
+  "esmodules": [
+    "tochange.js"
+  ],
   "languages": [
     {
       "lang": "en",
