@@ -19,6 +19,24 @@
   "esmodules": [
     "tochange.js"
   ],
+  "packs": [
+    {
+      "label": "To Change Rules",
+      "type": "JournalEntry",
+      "name": "to-change-rules",
+      "path": "packs/to-change-rules",
+      "system": "to-change"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "To Change Rules",
+      "sorting": "m",
+      "packs": [
+        "to-change-rules"
+      ]
+    }
+  ],
   "languages": [
     {
       "lang": "en",
