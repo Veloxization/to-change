@@ -4,8 +4,6 @@
     "TYPES.Actor.npc": "Non-Player Character",
     "TYPES.Actor.npcPl": "Non-Player Characters",
 
-    "TYPES.Item.item": "Item",
-    "TYPES.Item.itemPl": "Items",
     "TYPES.Item.change": "Change",
     "TYPES.Item.changePl": "Changes",
     "TYPES.Item.damage": "Damage",
@@ -14,10 +12,7 @@
     "TC.Sheets.CharacterSheet": "Character Sheet",
 
     "TC.Character.Name": "Character Name",
-    "TC.Character.Gender": "Character Gender",
-    "TC.Character.Pronouns": "Character Pronouns",
-
-    "TC.Item.Name": "Item Name",
+    "TC.Character.Notes": "Notes",
 
     "TC.Attribute.MentalAptitude": "Mental Aptitude",
     "TC.Attribute.MentalFortitude": "Mental Fortitude",
