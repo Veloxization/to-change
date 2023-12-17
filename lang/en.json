@@ -27,6 +27,10 @@
     "TC.RisingCard": "Rising Card",
     "TC.FallingCard": "Falling Card",
 
+    "TC.Placeholder.SelectFaceCard": "- Select your Face card -",
+    "TC.Placeholder.SelectRisingCard": "- Select your Rising card -",
+    "TC.Placeholder.SelectFallingCard": "- Select your Falling card -",
+
     "TC.Tarot.TheFool": "The Fool",
     "TC.Tarot.TheMagician": "The Magician",
     "TC.Tarot.TheHighPriestess": "The High Priestess",
