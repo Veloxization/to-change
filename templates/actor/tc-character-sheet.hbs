@@ -1,15 +1,87 @@
 <form class="actor-sheet {{cssClass}}" autocomplete="off">
     <header class="sheet-header">
         <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
-        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'TC.Character.Name' }}"/></h1>
+        <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize "TC.Character.Name" }}"/></h1>
+        
+        <label for="faceCard">{{ localize "TC.FaceCard" }}</label>
+        <select name="system.details.faceCard" id="faceCard">
+            <option value="select" {{#if (eq actor.system.details.faceCard "select")}}selected{{/if}}>{{ localize "TC.Placeholder.SelectFaceCard" }}</option>
+            <option value="thefool" {{#if (eq actor.system.details.faceCard "thefool")}}selected{{/if}}>{{ localize "TC.Tarot.TheFool" }}</option>
+            <option value="themagician" {{#if (eq actor.system.details.faceCard "themagician")}}selected{{/if}}>{{ localize "TC.Tarot.TheMagician" }}</option>
+            <option value="thehighpriestess" {{#if (eq actor.system.details.faceCard "thehighpriestess")}}selected{{/if}}>{{ localize "TC.Tarot.TheHighPriestess" }}</option>
+            <option value="theempress" {{#if (eq actor.system.details.faceCard "theempress")}}selected{{/if}}>{{ localize "TC.Tarot.TheEmpress" }}</option>
+            <option value="theemperor" {{#if (eq actor.system.details.faceCard "theemperor")}}selected{{/if}}>{{ localize "TC.Tarot.TheEmperor" }}</option>
+            <option value="thehierophant" {{#if (eq actor.system.details.faceCard "thehierophant")}}selected{{/if}}>{{ localize "TC.Tarot.TheHierophant" }}</option>
+            <option value="thelovers" {{#if (eq actor.system.details.faceCard "thelovers")}}selected{{/if}}>{{ localize "TC.Tarot.TheLovers" }}</option>
+            <option value="thechariot" {{#if (eq actor.system.details.faceCard "thechariot")}}selected{{/if}}>{{ localize "TC.Tarot.TheChariot" }}</option>
+            <option value="strength" {{#if (eq actor.system.details.faceCard "strength")}}selected{{/if}}>{{ localize "TC.Tarot.Strength" }}</option>
+            <option value="thehermit" {{#if (eq actor.system.details.faceCard "thehermit")}}selected{{/if}}>{{ localize "TC.Tarot.TheHermit" }}</option>
+            <option value="wheeloffortune" {{#if (eq actor.system.details.faceCard "wheeloffortune")}}selected{{/if}}>{{ localize "TC.Tarot.WheelOfFortune" }}</option>
+            <option value="justice" {{#if (eq actor.system.details.faceCard "justice")}}selected{{/if}}>{{ localize "TC.Tarot.Justice" }}</option>
+            <option value="thehangedman" {{#if (eq actor.system.details.faceCard "thehangedman")}}selected{{/if}}>{{ localize "TC.Tarot.TheHangedMan" }}</option>
+            <option value="death" {{#if (eq actor.system.details.faceCard "death")}}selected{{/if}}>{{ localize "TC.Tarot.Death" }}</option>
+            <option value="temperance" {{#if (eq actor.system.details.faceCard "temperance")}}selected{{/if}}>{{ localize "TC.Tarot.Temperance" }}</option>
+            <option value="thedevil" {{#if (eq actor.system.details.faceCard "thedevil")}}selected{{/if}}>{{ localize "TC.Tarot.TheDevil" }}</option>
+            <option value="thetower" {{#if (eq actor.system.details.faceCard "thetower")}}selected{{/if}}>{{ localize "TC.Tarot.TheTower" }}</option>
+            <option value="thestar" {{#if (eq actor.system.details.faceCard "thestar")}}selected{{/if}}>{{ localize "TC.Tarot.TheStar" }}</option>
+            <option value="themoon" {{#if (eq actor.system.details.faceCard "themoon")}}selected{{/if}}>{{ localize "TC.Tarot.TheMoon" }}</option>
+            <option value="thesun" {{#if (eq actor.system.details.faceCard "thesun")}}selected{{/if}}>{{ localize "TC.Tarot.TheSun" }}</option>
+            <option value="judgement" {{#if (eq actor.system.details.faceCard "judgement")}}selected{{/if}}>{{ localize "TC.Tarot.Judgement" }}</option>
+            <option value="theworld" {{#if (eq actor.system.details.faceCard "theworld")}}selected{{/if}}>{{ localize "TC.Tarot.TheWorld" }}</option>
+        </select>
 
-        <ul class="summary flexrow">
-            <li class="gender">
-                <input type="text" name="system.details.gender" placeholder="{{ localize 'TC.Character.Gender' }}"/>
-            </li>
-            <li class="species">
-                <input type="text" name="system.details.pronouns" placeholder="{{ localize 'TC.Character.Pronouns' }}"/>
-            </li>
-        </ul>
+        <label for="risingCard">{{ localize "TC.RisingCard" }}</label>
+        <select name="system.details.risingCard" id="risingCard">
+            <option value="select" {{#if (eq actor.system.details.risingCard "select")}}selected{{/if}}>{{ localize "TC.Placeholder.SelectRisingCard" }}</option>
+            <option value="thefool" {{#if (eq actor.system.details.risingCard "thefool")}}selected{{/if}}>{{ localize "TC.Tarot.TheFool" }}</option>
+            <option value="themagician" {{#if (eq actor.system.details.risingCard "themagician")}}selected{{/if}}>{{ localize "TC.Tarot.TheMagician" }}</option>
+            <option value="thehighpriestess" {{#if (eq actor.system.details.risingCard "thehighpriestess")}}selected{{/if}}>{{ localize "TC.Tarot.TheHighPriestess" }}</option>
+            <option value="theempress" {{#if (eq actor.system.details.risingCard "theempress")}}selected{{/if}}>{{ localize "TC.Tarot.TheEmpress" }}</option>
+            <option value="theemperor" {{#if (eq actor.system.details.risingCard "theemperor")}}selected{{/if}}>{{ localize "TC.Tarot.TheEmperor" }}</option>
+            <option value="thehierophant" {{#if (eq actor.system.details.risingCard "thehierophant")}}selected{{/if}}>{{ localize "TC.Tarot.TheHierophant" }}</option>
+            <option value="thelovers" {{#if (eq actor.system.details.risingCard "thelovers")}}selected{{/if}}>{{ localize "TC.Tarot.TheLovers" }}</option>
+            <option value="thechariot" {{#if (eq actor.system.details.risingCard "thechariot")}}selected{{/if}}>{{ localize "TC.Tarot.TheChariot" }}</option>
+            <option value="strength" {{#if (eq actor.system.details.risingCard "strength")}}selected{{/if}}>{{ localize "TC.Tarot.Strength" }}</option>
+            <option value="thehermit" {{#if (eq actor.system.details.risingCard "thehermit")}}selected{{/if}}>{{ localize "TC.Tarot.TheHermit" }}</option>
+            <option value="wheeloffortune" {{#if (eq actor.system.details.risingCard "wheeloffortune")}}selected{{/if}}>{{ localize "TC.Tarot.WheelOfFortune" }}</option>
+            <option value="justice" {{#if (eq actor.system.details.risingCard "justice")}}selected{{/if}}>{{ localize "TC.Tarot.Justice" }}</option>
+            <option value="thehangedman" {{#if (eq actor.system.details.risingCard "thehangedman")}}selected{{/if}}>{{ localize "TC.Tarot.TheHangedMan" }}</option>
+            <option value="death" {{#if (eq actor.system.details.risingCard "death")}}selected{{/if}}>{{ localize "TC.Tarot.Death" }}</option>
+            <option value="temperance" {{#if (eq actor.system.details.risingCard "temperance")}}selected{{/if}}>{{ localize "TC.Tarot.Temperance" }}</option>
+            <option value="thedevil" {{#if (eq actor.system.details.risingCard "thedevil")}}selected{{/if}}>{{ localize "TC.Tarot.TheDevil" }}</option>
+            <option value="thetower" {{#if (eq actor.system.details.risingCard "thetower")}}selected{{/if}}>{{ localize "TC.Tarot.TheTower" }}</option>
+            <option value="thestar" {{#if (eq actor.system.details.risingCard "thestar")}}selected{{/if}}>{{ localize "TC.Tarot.TheStar" }}</option>
+            <option value="themoon" {{#if (eq actor.system.details.risingCard "themoon")}}selected{{/if}}>{{ localize "TC.Tarot.TheMoon" }}</option>
+            <option value="thesun" {{#if (eq actor.system.details.risingCard "thesun")}}selected{{/if}}>{{ localize "TC.Tarot.TheSun" }}</option>
+            <option value="judgement" {{#if (eq actor.system.details.risingCard "judgement")}}selected{{/if}}>{{ localize "TC.Tarot.Judgement" }}</option>
+            <option value="theworld" {{#if (eq actor.system.details.risingCard "theworld")}}selected{{/if}}>{{ localize "TC.Tarot.TheWorld" }}</option>
+        </select>
+
+        <label for="fallingCard">{{ localize "TC.FallingCard" }}</label>
+        <select name="system.details.fallingCard" id="fallingCard">
+            <option value="select" {{#if (eq actor.system.details.fallingCard "select")}}selected{{/if}}>{{ localize "TC.Placeholder.SelectFallingCard" }}</option>
+            <option value="thefool" {{#if (eq actor.system.details.fallingCard "thefool")}}selected{{/if}}>{{ localize "TC.Tarot.TheFool" }}</option>
+            <option value="themagician" {{#if (eq actor.system.details.fallingCard "themagician")}}selected{{/if}}>{{ localize "TC.Tarot.TheMagician" }}</option>
+            <option value="thehighpriestess" {{#if (eq actor.system.details.fallingCard "thehighpriestess")}}selected{{/if}}>{{ localize "TC.Tarot.TheHighPriestess" }}</option>
+            <option value="theempress" {{#if (eq actor.system.details.fallingCard "theempress")}}selected{{/if}}>{{ localize "TC.Tarot.TheEmpress" }}</option>
+            <option value="theemperor" {{#if (eq actor.system.details.fallingCard "theemperor")}}selected{{/if}}>{{ localize "TC.Tarot.TheEmperor" }}</option>
+            <option value="thehierophant" {{#if (eq actor.system.details.fallingCard "thehierophant")}}selected{{/if}}>{{ localize "TC.Tarot.TheHierophant" }}</option>
+            <option value="thelovers" {{#if (eq actor.system.details.fallingCard "thelovers")}}selected{{/if}}>{{ localize "TC.Tarot.TheLovers" }}</option>
+            <option value="thechariot" {{#if (eq actor.system.details.fallingCard "thechariot")}}selected{{/if}}>{{ localize "TC.Tarot.TheChariot" }}</option>
+            <option value="strength" {{#if (eq actor.system.details.fallingCard "strength")}}selected{{/if}}>{{ localize "TC.Tarot.Strength" }}</option>
+            <option value="thehermit" {{#if (eq actor.system.details.fallingCard "thehermit")}}selected{{/if}}>{{ localize "TC.Tarot.TheHermit" }}</option>
+            <option value="wheeloffortune" {{#if (eq actor.system.details.fallingCard "wheeloffortune")}}selected{{/if}}>{{ localize "TC.Tarot.WheelOfFortune" }}</option>
+            <option value="justice" {{#if (eq actor.system.details.fallingCard "justice")}}selected{{/if}}>{{ localize "TC.Tarot.Justice" }}</option>
+            <option value="thehangedman" {{#if (eq actor.system.details.fallingCard "thehangedman")}}selected{{/if}}>{{ localize "TC.Tarot.TheHangedMan" }}</option>
+            <option value="death" {{#if (eq actor.system.details.fallingCard "death")}}selected{{/if}}>{{ localize "TC.Tarot.Death" }}</option>
+            <option value="temperance" {{#if (eq actor.system.details.fallingCard "temperance")}}selected{{/if}}>{{ localize "TC.Tarot.Temperance" }}</option>
+            <option value="thedevil" {{#if (eq actor.system.details.fallingCard "thedevil")}}selected{{/if}}>{{ localize "TC.Tarot.TheDevil" }}</option>
+            <option value="thetower" {{#if (eq actor.system.details.fallingCard "thetower")}}selected{{/if}}>{{ localize "TC.Tarot.TheTower" }}</option>
+            <option value="thestar" {{#if (eq actor.system.details.fallingCard "thestar")}}selected{{/if}}>{{ localize "TC.Tarot.TheStar" }}</option>
+            <option value="themoon" {{#if (eq actor.system.details.fallingCard "themoon")}}selected{{/if}}>{{ localize "TC.Tarot.TheMoon" }}</option>
+            <option value="thesun" {{#if (eq actor.system.details.fallingCard "thesun")}}selected{{/if}}>{{ localize "TC.Tarot.TheSun" }}</option>
+            <option value="judgement" {{#if (eq actor.system.details.fallingCard "judgement")}}selected{{/if}}>{{ localize "TC.Tarot.Judgement" }}</option>
+            <option value="theworld" {{#if (eq actor.system.details.fallingCard "theworld")}}selected{{/if}}>{{ localize "TC.Tarot.TheWorld" }}</option>
+        </select>
     </header>
 </form>
