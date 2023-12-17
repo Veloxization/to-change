@@ -6,32 +6,67 @@
         ],
         "templates": {
             "common": {
+                "notes": ""
             }
         },
         "character": {
-            "templates": ["common"]
-        },
-        "npc": {
-        }
-    },
-    "Item": {
-        "types": [
-            "item",
-            "change",
-            "damage"
-        ],
-        "templates": {
-            "common": {
-                "description": ""
+            "templates": ["common"],
+
+            "details": {
+                "faceCard": "select",
+                "risingCard": "select",
+                "fallingCard": "select"
+            },
+
+            "descriptions": {
+                "PADescription1": "",
+                "PADescription2": "",
+                "PADescription3": "",
+                "MADescription1": "",
+                "MADescription2": "",
+                "MADescription3": "",
+                "PFDescription1": "",
+                "PFDescription2": "",
+                "PFDescription3": "",
+                "MFDescription1": "",
+                "MFDescription2": "",
+                "MFDescription3": "",
+                "permanenceDescription": ""
+            },
+
+            "changes": {
+                "PAChange1": false,
+                "PAChange2": false,
+                "PAChange3": false,
+                "MAChange1": false,
+                "MAChange2": false,
+                "MAChange3": false,
+                "PFChange1": false,
+                "PFChange2": false,
+                "PFChange3": false,
+                "MFChange1": false,
+                "MFChange2": false,
+                "MFChange3": false,
+                "permanenceChange": false
+            },
+
+            "damage": {
+                "PADamage1": false,
+                "PADamage2": false,
+                "PADamage3": false,
+                "MADamage1": false,
+                "MADamage2": false,
+                "MADamage3": false,
+                "PFDamage1": false,
+                "PFDamage2": false,
+                "PFDamage3": false,
+                "MFDamage1": false,
+                "MFDamage2": false,
+                "MFDamage3": false,
+                "permanenceDamage": false
             }
         },
-        "item": {
-            "templates": ["common"]
-        },
-        "change": {
-            "templates": ["common"]
-        },
-        "damage": {
+        "npc": {
             "templates": ["common"]
         }
     }
