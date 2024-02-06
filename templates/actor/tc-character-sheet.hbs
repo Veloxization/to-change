@@ -92,35 +92,35 @@
             </tr>
             <tr>
                 <td>
-                    <div {{#if (ne actor.system.details.faceCard "select")}}style="display: none"{{/if}}>Your Face card gives you a special ability associated with that card.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thefool")}}style="display: none"{{/if}}>Whenever you fail on a draw, if The Fool is in the discard pile, return it to the deck and reshuffle.</div>
-                    <div {{#if (ne actor.system.details.faceCard "themagician")}}style="display: none"{{/if}}>The Magician gives you success on all attributes, and your success is fantastical, appearing as a miracle to the untrained eye.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thehighpriestess")}}style="display: none"{{/if}}>The High Priestess gives you success on all attributes, and your success comes from your past, sparking a lost memory.</div>
-                    <div {{#if (ne actor.system.details.faceCard "theempress")}}style="display: none"{{/if}}>Empress gives you success on all attributes, and your success is for the benefit of others, shared with everyone around you.</div>
-                    <div {{#if (ne actor.system.details.faceCard "theemperor")}}style="display: none"{{/if}}>The Emperor gives you success on all attributes, and your success imposes your will over others, marking you as a leader.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thehierophant")}}style="display: none"{{/if}}>The Hierophant gives you success on all attributes, and your success is instructive, teaching an unforgettable lesson.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thelovers")}}style="display: none"{{/if}}>The Lovers gives you success on all attributes, and your success draws infatuation towards you, feeding the flame of love.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thechariot")}}style="display: none"{{/if}}>The Chariot gives you success on all attributes, and your success is undeniable; nobody can doubt it.</div>
-                    <div {{#if (ne actor.system.details.faceCard "strength")}}style="display: none"{{/if}}>Strength gives you success on all attributes, and your success feels superhuman, pulsing with energy and raw power.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thehermit")}}style="display: none"{{/if}}>The Hermit gives you success on all attributes, and your success is yours alone, no one else can take credit for your actions.</div>
-                    <div {{#if (ne actor.system.details.faceCard "wheeloffortune")}}style="display: none"{{/if}}>Wheel of Fortune gives you success on all attributes, and your success signals a change in the tides of fortune.</div>
-                    <div {{#if (ne actor.system.details.faceCard "justice")}}style="display: none"{{/if}}>Whenever your change cross is horizontally or vertically symmetrical with changed attributes, you reveal one additional card on all your draws.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thehangedman")}}style="display: none"{{/if}}>The Hanged Man gives you success on all attributes, and your success works in ways that only you can understand.</div>
-                    <div {{#if (ne actor.system.details.faceCard "death")}}style="display: none"{{/if}}>Whenever a card is used and discarded, you can make it become your face card, gaining its ability, and replacing your current face card.</div>
-                    <div {{#if (ne actor.system.details.faceCard "temperance")}}style="display: none"{{/if}}>Whenever you take a change, you can choose to make it permanent.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thedevil")}}style="display: none"{{/if}}>When you use The Devil, you decide how many attribute points are changed and which ones, even ones that are out of order.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thetower")}}style="display: none"{{/if}}>After you use a card, you discard all the revealed cards (except Death and Temperance) instead of just discarding the one you used.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thestar")}}style="display: none"{{/if}}>The Star gives you success on all attributes, and your success is a stroke of sheer genius.</div>
-                    <div {{#if (ne actor.system.details.faceCard "themoon")}}style="display: none"{{/if}}>Once per draw, you can treat any card (except Death or Temperance) as if it were The Moon.</div>
-                    <div {{#if (ne actor.system.details.faceCard "thesun")}}style="display: none"{{/if}}>Whenever any player succeeds on a draw, after the deck is shuffled, you can ask the Storyteller to let you look at the top card of the deck.</div>
-                    <div {{#if (ne actor.system.details.faceCard "judgement")}}style="display: none"{{/if}}>Whenever Judgement is used, you are the one who decides success or failure, instead of the Storyteller.</div>
-                    <div {{#if (ne actor.system.details.faceCard "theworld")}}style="display: none"{{/if}}>When you use The World, take any number of cards from the discard pile (other than The World) and return them to the deck, instead of just one.</div>
+                    <div {{#if (ne actor.system.details.faceCard "select")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.Unselected" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thefool")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheFool" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "themagician")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheMagician" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thehighpriestess")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheHighPriestess" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "theempress")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheEmpress" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "theemperor")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheEmperor" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thehierophant")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheHierophant" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thelovers")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheLovers" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thechariot")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheChariot" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "strength")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.Strength" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thehermit")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheHermit" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "wheeloffortune")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.WheelOfFortune" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "justice")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.Justice" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thehangedman")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheHangedMan" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "death")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.Death" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "temperance")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.Temperance" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thedevil")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheDevil" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thetower")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheTower" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thestar")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheStar" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "themoon")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheMoon" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "thesun")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheSun" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "judgement")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.Judgement" }}</div>
+                    <div {{#if (ne actor.system.details.faceCard "theworld")}}style="display: none"{{/if}}>{{ localize "TC.Info.FaceCard.TheWorld" }}</div>
                 </td>
                 <td>
-                    <div>When you reveal this card, you move closer to reaching your goals and reveal another card into the current hand.</div>
+                    <div>{{ localize "TC.Info.RisingCard" }}</div>
                 </td>
                 <td>
-                    <div>When you reveal this card, you move closer to the source of your fears and must shuffle the first card revealed for the hand back into the deck.</div>
+                    <div>{{ localize "TC.Info.FallingCard" }}</div>
                 </td>
             </tr>
         </table>
