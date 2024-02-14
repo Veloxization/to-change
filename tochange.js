@@ -9,4 +9,13 @@ Hooks.once("init", function() {
         TCActorSheet,
         { label: game.i18n.localize("TC.Sheets.CharacterSheet"), types: ["character"], makeDefault: true }
     );
+
+    CONFIG.fontDefinitions.Euphorigenic = {
+        editor: true,
+        fonts: [
+            {
+                urls: [`systems/${game.system.id}/fonts/Euphorigenic.ttf`],
+            },
+        ],
+    };
 });
