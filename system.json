@@ -19,6 +19,9 @@
   "esmodules": [
     "tochange.js"
   ],
+  "styles": [
+    "main.css"
+  ],
   "packs": [
     {
       "label": "To Change Rules",

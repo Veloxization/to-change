@@ -1,0 +1,59 @@
+:root {
+    --actor-textbox-width: 300px;
+    --actor-textbox-height: 150px;
+    --actor-content-width: 700px;
+    --actor-center-indent: 200px;
+}
+.change-cross, .character-details, .actor-sheet header {
+    width: var(--actor-content-width);
+}
+.character-details td {
+    width: 33.33%;
+}
+.change-cross .titles-top {
+    overflow: auto;
+}
+.change-cross .titles-bottom {
+    margin-bottom: 20px;
+}
+.change-cross .title-left {
+    float: left;
+}
+.change-cross .title-right {
+    float: right;
+}
+.change-cross .row {
+    padding: 10px 0;
+}
+.change-cross .row-1 {
+    margin: 0;
+}
+.change-cross .row-2 {
+    margin: 20px;
+}
+.change-cross .row-3 {
+    margin: 40px;
+}
+.change-cross .row-4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+.change-cross .textbox-left {
+    float: left;
+}
+.change-cross .textbox-right {
+    float: right;
+}
+.change-cross .textbox-center {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: var(--actor-center-indent);
+}
+.change-cross .textbox {
+    width: var(--actor-textbox-width);
+    height: var(--actor-textbox-height);
+    resize: none;
+    margin: 10px 0;
+}
