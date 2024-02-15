@@ -9,9 +9,11 @@
     --tc-color-change-cross-physical: #e79ed4;
     --tc-color-change-cross-mental: #8f8cce;
     --tc-border-change-cross-textbox: #3b2945;
+    --tc-border-scrollbar: #8200ff;
     --tc-background-change-cross-physical: #f1cae7;
     --tc-background-change-cross-mental: #d2c2e6;
     --tc-background-default: #e7e3e9;
+    --tc-background-scrollbar: #382278;
     --tc-shadow-box: #8f4bb4;
     --font-titles: "Euphorigenic";
     --font-body: "Segoe UI";
@@ -119,4 +121,8 @@
 
 select:focus, textarea:focus, input:focus {
     box-shadow: 0 0 10px var(--tc-shadow-box) !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--tc-background-scrollbar) !important;
+    border-color: var(--tc-border-scrollbar) !important;
 }
