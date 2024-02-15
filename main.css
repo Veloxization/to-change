@@ -13,8 +13,9 @@
     --tc-background-change-cross-physical: #f1cae7;
     --tc-background-change-cross-mental: #d2c2e6;
     --tc-background-default: #e7e3e9;
+    --tc-background-default-transparent: #e7e3e9dc;
     --tc-background-scrollbar: #382278;
-    --tc-shadow-box: #8f4bb4;
+    --tc-shadow: #8f4bb4;
     --font-titles: "Euphorigenic";
     --font-body: "Segoe UI";
 }
@@ -72,6 +73,8 @@
     margin: 10px 0;
     border-radius: 10px;
     border: 2px solid var(--tc-border-change-cross-textbox);
+    font-family: var(--font-body), sans-serif;
+    font-weight: 500;
 }
 .change-cross .textbox-physical {
     background-color: var(--tc-background-change-cross-physical);
@@ -81,6 +84,9 @@
 }
 .change-cross .textbox-permanence {
     background: linear-gradient(135deg, var(--tc-background-change-cross-physical) 0%, var(--tc-background-change-cross-mental) 50%, var(--tc-background-change-cross-physical) 100%);
+}
+.actor-sheet h1 {
+    border: none !important;
 }
 .character-details td {
     padding: 5px;
@@ -97,11 +103,18 @@
     color: var(--tc-color-small-titles);
 }
 
-.journal-entry-content, .actor-sheet {
+.journal-entry-content, .actor-sheet, .chat-message, .roll-type-select, .roll-type-select option, .roll-type-select optgroup, #chat-message, #sidebar button, .header-search input {
     background-color: var(--tc-background-default) !important;
     background-image: none !important;
     font-family: var(--font-body), sans-serif;
     font-weight: 500;
+}
+
+.roll-type-select optgroup, .chat-message .message-sender {
+    font-weight: bold !important;
+}
+.whisper {
+    background-color: var(--tc-background-default-transparent) !important;
 }
 .journal-entry-content h1 {
     font-family: var(--font-titles), serif;
@@ -119,8 +132,11 @@
     color: var(--tc-color-change-cross-mental);
 }
 
-select:focus, textarea:focus, input:focus {
-    box-shadow: 0 0 10px var(--tc-shadow-box) !important;
+select:focus, textarea:focus, input:focus, #sidebar button:hover {
+    box-shadow: 0 0 10px var(--tc-shadow) !important;
+}
+a:hover, .tabs .active {
+    text-shadow: 0 0 5px var(--tc-shadow) !important;
 }
 ::-webkit-scrollbar-thumb {
     background-color: var(--tc-background-scrollbar) !important;
