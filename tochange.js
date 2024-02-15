@@ -10,11 +10,11 @@ Hooks.once("init", function() {
         { label: game.i18n.localize("TC.Sheets.CharacterSheet"), types: ["character"], makeDefault: true }
     );
 
-    CONFIG.fontDefinitions.Euphorigenic = {
+    CONFIG.fontDefinitions.FoglihtenNo07 = {
         editor: true,
         fonts: [
             {
-                urls: [`systems/${game.system.id}/fonts/Euphorigenic.ttf`],
+                urls: [`systems/${game.system.id}/fonts/FoglihtenNo07.ttf`],
             },
         ],
     };
