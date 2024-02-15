@@ -2,7 +2,7 @@
   "id": "to-change",
   "title": "To Change (Unofficial)",
   "description": "<p>A FoundryVTT system implementation for playing the To Change system by Duck and Ewen.</p>",
-  "version": "0.1",
+  "version": "0.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
@@ -50,5 +50,5 @@
   "socket": false,
   "url": "https://github.com/Veloxization/to-change",
   "manifest": "https://raw.githubusercontent.com/Veloxization/to-change/main/system.json",
-  "download": "https://github.com/Veloxization/to-change/releases"
+  "download": "https://github.com/Veloxization/to-change/releases/download/v0.2/fvtt-to-change-v0.2.zip"
 }
