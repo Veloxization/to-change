@@ -1,17 +1,9 @@
 {
     "Actor": {
         "types": [
-            "character",
-            "npc"
+            "character"
         ],
-        "templates": {
-            "common": {
-                "notes": ""
-            }
-        },
         "character": {
-            "templates": ["common"],
-
             "details": {
                 "faceCard": "select",
                 "risingCard": "select",
@@ -33,9 +25,6 @@
                 "MFDescription3": "",
                 "permanenceDescription": ""
             }
-        },
-        "npc": {
-            "templates": ["common"]
         }
     }
 }
