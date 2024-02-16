@@ -19,3 +19,9 @@ Hooks.once("init", function() {
         ],
     };
 });
+
+Hooks.once("ready", function() {
+    $("#pause img").attr("class", "fa-spin pause-image");
+});
+
+registerHooks();
