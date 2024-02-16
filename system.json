@@ -47,6 +47,18 @@
       "path": "lang/en.json"
     }
   ],
+  "media": [
+    {
+      "type": "cover",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "setup",
+      "url": "systems/to-change/images/tc-repo.jpg",
+      "thumbnail": "systems/to-change/images/tc-thumbnail.jpg"
+    }
+],
   "socket": false,
   "url": "https://github.com/Veloxization/to-change",
   "manifest": "https://raw.githubusercontent.com/Veloxization/to-change/main/system.json",
