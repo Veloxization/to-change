@@ -24,4 +24,8 @@ Hooks.once("ready", function() {
     $("#pause img").attr("class", "fa-spin pause-image");
 });
 
+Hooks.on("renderPause", function() {
+    $("#pause img").attr("class", "fa-spin pause-image");
+});
+
 registerHooks();
