@@ -60,6 +60,7 @@
     }
 ],
   "socket": false,
+  "background": "systems/to-change/images/tc-thumbnail.jpg",
   "url": "https://github.com/Veloxization/to-change",
   "manifest": "https://raw.githubusercontent.com/Veloxization/to-change/main/system.json",
   "download": "https://github.com/Veloxization/to-change/releases/download/v0.2.2/fvtt-to-change-v0.2.2.zip"
