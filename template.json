@@ -24,6 +24,21 @@
                 "MFDescription2": "",
                 "MFDescription3": "",
                 "permanenceDescription": ""
+            },
+
+            "transgender": {
+                "PATransgender1": "",
+                "PATransgender2": "",
+                "PATransgender3": "",
+                "MATransgender1": "",
+                "MATransgender2": "",
+                "MATransgender3": "",
+                "PFTransgender1": "",
+                "PFTransgender2": "",
+                "PFTransgender3": "",
+                "MFTransgender1": "",
+                "MFTransgender2": "",
+                "MFTransgender3": ""
             }
         }
     }
