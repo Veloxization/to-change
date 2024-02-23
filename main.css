@@ -19,8 +19,13 @@
     --font-titles: "FoglihtenNo07";
     --font-body: "Segoe UI";
 }
-.change-cross, .character-details, .actor-sheet header {
+.change-cross, .character-details, .actor-sheet header, .actor-sheet nav {
     width: var(--tc-actor-content-width);
+}
+.actor-sheet nav {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: var(--color-border-light-tertiary) solid 1px;
 }
 .character-details td {
     width: 33.33%;

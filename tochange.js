@@ -1,4 +1,5 @@
 import TCActorSheet from "./modules/actor/sheet/tc-actor-sheet.js";
+import preloadHandlebarsTemplates from "./modules/system/preload-templates.js";
 
 Hooks.once("init", function() {
     console.log("To Change | Initializing To Change System")
@@ -18,6 +19,8 @@ Hooks.once("init", function() {
             },
         ],
     };
+
+    preloadHandlebarsTemplates();
 });
 
 Hooks.once("ready", function() {

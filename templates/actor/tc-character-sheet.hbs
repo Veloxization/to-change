@@ -126,42 +126,17 @@
             </tr>
         </table>
 
-        <div class="change-cross">
-            <div class="titles-top">
-                <div class="title-left title-pa"><b>{{ localize "TC.Attribute.PhysicalAptitude" }}</b></div>
-                <div class="title-right title-ma"><b>{{ localize "TC.Attribute.MentalAptitude" }}</div>
+        <nav class="sheet-navigation tabs" data-group="primary">
+            <b><a class="item active" data-tab="change-cross">{{ localize "TC.Sheet.ChangeCross" }}</a></b>
+            <b><a class="item" data-tab="transgender-change-wheel">{{ localize "TC.Sheet.TransgenderChangeWheel" }}</a></b>
+        </nav>
+
+        <div class="tc-sheet-content">
+            <div class="tab change-cross" data-group="primary" data-tab="change-cross">
+                {{> "systems/to-change/templates/actor/parts/change-cross.hbs"}}
             </div>
-            <div class="row-1 row">
-                <textarea class="textbox-left textbox textbox-physical" name="system.descriptions.PADescription1">{{actor.system.descriptions.PADescription1}}</textarea>
-                <textarea class="textbox-right textbox textbox-mental" name="system.descriptions.MADescription1">{{actor.system.descriptions.MADescription1}}</textarea>
-            </div>
-            <div class="row-2 row">
-                <textarea class="textbox-left textbox textbox-physical" name="system.descriptions.PADescription2">{{actor.system.descriptions.PADescription2}}</textarea>
-                <textarea class="textbox-right textbox textbox-mental" name="system.descriptions.MADescription2">{{actor.system.descriptions.MADescription2}}</textarea>
-            </div>
-            <div class="row-3 row">
-                <textarea class="textbox-left textbox textbox-physical" name="system.descriptions.PADescription3">{{actor.system.descriptions.PADescription3}}</textarea>
-                <textarea class="textbox-right textbox textbox-mental" name="system.descriptions.MADescription3">{{actor.system.descriptions.MADescription3}}</textarea>
-            </div>
-            <div class="row-4 row">
-                <b class="textbox-center">Permanence</b><br/>
-                <textarea class="textbox-center textbox textbox-permanence" name="system.descriptions.permanenceDescription">{{actor.system.descriptions.permanenceDescription}}</textarea>
-            </div>
-            <div class="row-3 row">
-                <textarea class="textbox-left textbox textbox-mental" name="system.descriptions.MFDescription3">{{actor.system.descriptions.MFDescription3}}</textarea>
-                <textarea class="textbox-right textbox textbox-physical" name="system.descriptions.PFDescription3">{{actor.system.descriptions.PFDescription3}}</textarea>
-            </div>
-            <div class="row-2 row">
-                <textarea class="textbox-left textbox textbox-mental" name="system.descriptions.MFDescription2">{{actor.system.descriptions.MFDescription2}}</textarea>
-                <textarea class="textbox-right textbox textbox-physical" name="system.descriptions.PFDescription2">{{actor.system.descriptions.PFDescription2}}</textarea>
-            </div>
-            <div class="row-1 row">
-                <textarea class="textbox-left textbox textbox-mental" name="system.descriptions.MFDescription1">{{actor.system.descriptions.MFDescription1}}</textarea>
-                <textarea class="textbox-right textbox textbox-physical" name="system.descriptions.PFDescription1">{{actor.system.descriptions.PFDescription1}}</textarea>
-            </div>
-            <div class="titles-bottom">
-                <div class="title-left title-mf"><b>{{ localize "TC.Attribute.MentalFortitude" }}</b></div>
-                <div class="title-right title-pf"><b>{{ localize "TC.Attribute.PhysicalFortitude" }}</b></div>
+            <div class="tab transgender-change-wheel" data-group="primary" data-tab="transgender-change-wheel">
+                {{> "systems/to-change/templates/actor/parts/transgender-change-wheel.hbs"}}
             </div>
         </div>
     </body>
