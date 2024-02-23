@@ -16,6 +16,9 @@
     "TC.Attribute.PhysicalAptitude": "Physical Aptitude",
     "TC.Attribute.PhysicalFortitude": "Physical Fortitude",
 
+    "TC.Sheet.ChangeCross": "Change Cross",
+    "TC.Sheet.TransgenderChangeWheel": "Transgender Change Wheel",
+
     "TC.Changed": "Changed",
     "TC.Damaged": "Damaged",
     "TC.Permanence": "Permanence",
