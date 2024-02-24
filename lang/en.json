@@ -16,6 +16,11 @@
     "TC.Attribute.PhysicalAptitude": "Physical Aptitude",
     "TC.Attribute.PhysicalFortitude": "Physical Fortitude",
 
+    "TC.Attribute.MentalAptitudeAbbr": "MA",
+    "TC.Attribue.MentalFortitudeAbbr": "MF",
+    "TC.Attribute.PhysicalAptitudeAbbr": "PA",
+    "TC.Attribute.PhysicalFortitudeAbbr": "PF",
+
     "TC.Sheet.ChangeCross": "Change Cross",
     "TC.Sheet.TransgenderChangeWheel": "Transgender Change Wheel",
 

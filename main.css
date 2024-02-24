@@ -42,6 +42,9 @@
 .change-cross .title-right {
     float: right;
 }
+.transgender-change-wheel .title-right {
+    text-align: right;
+}
 .change-cross .row {
     padding: 10px 0;
 }
@@ -59,11 +62,14 @@
     margin-right: auto;
     margin-bottom: -50px;
 }
-.change-cross .textbox-left {
+.change-cross .textbox-left, .transgender-change-wheel .textbox-left {
     float: left;
 }
-.change-cross .textbox-right {
+.change-cross .textbox-right, .transgender-change-wheel .textbox-right {
     float: right;
+}
+.transgender-change-wheel .textbox {
+    width: var(--tc-actor-textbox-width);
 }
 .change-cross .textbox-center {
     margin-left: auto;
@@ -129,6 +135,9 @@
 .journal-entry-content h2, .journal-entry-content h3, .journal-entry-content h4, .journal-entry-content h5 {
     color: var(--tc-color-small-titles);
     border-bottom: 2px dotted var(--tc-color-small-titles);
+}
+.transgender-change-wheel h3 {
+    border: none !important;
 }
 .title-pa, .title-pf {
     color: var(--tc-color-change-cross-physical);
