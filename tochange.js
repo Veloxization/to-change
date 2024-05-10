@@ -31,4 +31,20 @@ Hooks.on("renderPause", function() {
     $("#pause img").attr("class", "fa-spin pause-image");
 });
 
+Hooks.on("createActor", (document, options, userId) => {
+    const actorTG = document.system.transgender;
+    actorTG.MATransgender1 = game.i18n.localize("TC.Sheet.TransgenderChange1");
+    actorTG.MATransgender2 = game.i18n.localize("TC.Sheet.TransgenderChange2");
+    actorTG.MATransgender3 = game.i18n.localize("TC.Sheet.TransgenderChange3");
+    actorTG.PFTransgender1 = game.i18n.localize("TC.Sheet.TransgenderChange4");
+    actorTG.PFTransgender2 = game.i18n.localize("TC.Sheet.TransgenderChange5");
+    actorTG.PFTransgender3 = game.i18n.localize("TC.Sheet.TransgenderChange6");
+    actorTG.MFTransgender1 = game.i18n.localize("TC.Sheet.TransgenderChange7");
+    actorTG.MFTransgender2 = game.i18n.localize("TC.Sheet.TransgenderChange8");
+    actorTG.MFTransgender3 = game.i18n.localize("TC.Sheet.TransgenderChange9");
+    actorTG.PATransgender1 = game.i18n.localize("TC.Sheet.TransgenderChange10");
+    actorTG.PATransgender2 = game.i18n.localize("TC.Sheet.TransgenderChange11");
+    actorTG.PATransgender3 = game.i18n.localize("TC.Sheet.TransgenderChange12");
+});
+
 registerHooks();
