@@ -29,14 +29,22 @@
       "name": "to-change-rules",
       "path": "packs/to-change-rules",
       "system": "to-change"
+    },
+    {
+      "label": "Future Deck",
+      "type": "Cards",
+      "name": "future-deck",
+      "path": "packs/future-deck",
+      "system": "to-change"
     }
   ],
   "packFolders": [
     {
-      "name": "To Change Rules",
+      "name": "To Change",
       "sorting": "m",
       "packs": [
-        "to-change-rules"
+        "to-change-rules",
+        "future-deck"
       ]
     }
   ],
