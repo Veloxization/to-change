@@ -39,6 +39,21 @@
                 "MFTransgender1": "",
                 "MFTransgender2": "",
                 "MFTransgender3": ""
+            },
+
+            "transgenderCheck": {
+                "PATransgender1": false,
+                "PATransgender2": false,
+                "PATransgender3": false,
+                "MATransgender1": false,
+                "MATransgender2": false,
+                "MATransgender3": false,
+                "PFTransgender1": false,
+                "PFTransgender2": false,
+                "PFTransgender3": false,
+                "MFTransgender1": false,
+                "MFTransgender2": false,
+                "MFTransgender3": false
             }
         }
     }
