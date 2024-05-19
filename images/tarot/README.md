@@ -1,0 +1,1 @@
+The Rider-Waite Smith Tarot Cards were created by [Luciella Scarlett](https://luciellaes.itch.io/) and released under [Creative Commons Public Domain (CC0)](https://creativecommons.org/publicdomain/zero/1.0/) license.
