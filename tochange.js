@@ -1,4 +1,5 @@
 import TCActorSheet from "./modules/actor/sheet/tc-actor-sheet.js";
+import TCCardsSheet from "./modules/cards/sheet/tc-cards-sheet.js";
 import preloadHandlebarsTemplates from "./modules/system/preload-templates.js";
 
 Hooks.once("init", function() {
@@ -10,6 +11,14 @@ Hooks.once("init", function() {
         TCActorSheet,
         { label: game.i18n.localize("TC.Sheets.CharacterSheet"), types: ["character"], makeDefault: true }
     );
+    console.log("To Change | Registered Actor Sheet")
+
+    CardStacks.registerSheet(
+        game.system.id,
+        TCCardsSheet,
+        { label: game.i18n.localize("TC.Cards.FutureDeck"), types: ["deck"], makeDefault: true }
+    );
+    console.log("To Change | Registered Cards Sheet")
 
     CONFIG.fontDefinitions.FoglihtenNo07 = {
         editor: true,
@@ -19,8 +28,10 @@ Hooks.once("init", function() {
             },
         ],
     };
+    console.log("To Change | Loaded Custom Fonts")
 
     preloadHandlebarsTemplates();
+    console.log("To Change | Loaded Sheet Templates")
 });
 
 Hooks.once("ready", function() {

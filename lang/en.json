@@ -96,5 +96,10 @@
     "TC.Tarot.TheMoon": "The Moon",
     "TC.Tarot.TheSun": "The Sun",
     "TC.Tarot.Judgement": "Judgement",
-    "TC.Tarot.TheWorld": "The World"
+    "TC.Tarot.TheWorld": "The World",
+
+    "TC.Cards.FutureDeck": "Future Deck",
+    "TC.Cards.Config": "Configuration",
+    "TC.Cards.Card": "Card",
+    "TC.Cards.CardPl": "Cards"
 }
