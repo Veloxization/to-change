@@ -2,11 +2,11 @@
   "id": "to-change",
   "title": "To Change (Unofficial)",
   "description": "<p>A FoundryVTT system implementation for playing the To Change system by Duck and Ewen.</p>",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "compatibility": {
     "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "verified": "12.330",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -71,5 +71,5 @@
   "background": "systems/to-change/images/tc-thumbnail.jpg",
   "url": "https://github.com/Veloxization/to-change",
   "manifest": "https://raw.githubusercontent.com/Veloxization/to-change/main/system.json",
-  "download": "https://github.com/Veloxization/to-change/releases/download/v0.3.1/fvtt-to-change-v0.3.1.zip"
+  "download": "https://github.com/Veloxization/to-change/releases/download/v0.3.2/fvtt-to-change-v0.3.2.zip"
 }

@@ -165,7 +165,7 @@
     color: var(--tc-color-change-cross-mental);
 }
 
-select:focus, textarea:focus, input:focus, #sidebar button:hover {
+select:focus, textarea:focus, input:focus, #sidebar button:hover, #sidebar button:focus {
     box-shadow: 0 0 10px var(--tc-shadow) !important;
 }
 a:hover, .tabs .active {
@@ -175,6 +175,9 @@ a:hover, .tabs .active {
     background-color: var(--tc-background-scrollbar) !important;
     border-color: var(--tc-border-scrollbar) !important;
 }
+* {
+    scrollbar-color: var(--tc-border-scrollbar) var(--color-scrollbar-track) !important;
+  }
 #pause .pause-image {
     background: url("icons/pause-icon.png");
     background-size: 8rem;
