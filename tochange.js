@@ -47,4 +47,4 @@ Hooks.on("createActor", (document, options, userId) => {
     actorTG.PATransgender3 = game.i18n.localize("TC.Sheet.TransgenderChange12");
 });
 
-registerHooks();
+registerHooks(); // For compatibility with FoundryVTT 11. See about removing.
