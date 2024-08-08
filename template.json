@@ -56,5 +56,10 @@
                 "MFTransgender3": false
             }
         }
+    },
+    "Card": {
+        "base": {
+            "discardable": true
+        }
     }
 }

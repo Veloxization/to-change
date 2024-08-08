@@ -1,0 +1,4 @@
+<h1>Cards</h1>
+{{#each document.cards}}
+    <img src="{{this.img}}" width="200" title="{{#if this.showFace}}{{this.value}} - {{/if}}{{this.name}}">
+{{/each}}

@@ -5,8 +5,23 @@
     </header>
     <body>
         <nav class="sheet-navigation tabs" data-group="primary">
-            <b><a class="item" data-tab="config">{{ localize "TC.Cards.Config" }}</a></b>
-            <b><a class="item active" data-tab="cards">{{ localize "TC.Cards.CardPl" }}</a></b>
+            <b><a class="item" data-tab="cards-config">{{ localize "TC.Cards.Config" }}</a></b>
+            <b><a class="item active" data-tab="cards-list">{{ localize "TC.Cards.CardPl" }}</a></b>
         </nav>
+
+        <div class="tc-sheet-content">
+            <div class="tab cards-config" data-group="primary" data-tab="cards-config">
+                {{> "systems/to-change/templates/cards/parts/cards-config.hbs"}}
+            </div>
+            <div class="tab cards-list" data-group="primary" data-tab="cards-list">
+                {{> "systems/to-change/templates/cards/parts/cards-list.hbs"}}
+            </div>
+        </div>
+        <button title="{{ localize "TC.Cards.Controls.Tooltip.Shuffle" }}">{{ localize "TC.Cards.Controls.Shuffle"}}</button>
+        <button title="{{ localize "TC.Cards.Controls.Tooltip.Deal" }}">{{ localize "TC.Cards.Controls.Deal"}}</button>
+        <button title="{{ localize "TC.Cards.Controls.Tooltip.Peek" }}">{{ localize "TC.Cards.Controls.Peek"}}</button>
+        <button title="{{ localize "TC.Cards.Controls.Tooltip.Reveal" }}">{{ localize "TC.Cards.Controls.Reveal"}}</button>
+        <button title="{{ localize "TC.Cards.Controls.Tooltip.Reset" }}">{{ localize "TC.Cards.Controls.Reset"}}</button>
+        <button title="{{ localize "TC.Cards.Controls.Tooltip.Save" }}">{{ localize "TC.Cards.Controls.Save"}}</button>
     </body>
 </form>
