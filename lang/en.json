@@ -106,7 +106,6 @@
     "TC.Cards.Controls.Shuffle": "Shuffle",
     "TC.Cards.Controls.Deal": "Deal",
     "TC.Cards.Controls.Peek": "Peek",
-    "TC.Cards.Controls.Hide": "Hide",
     "TC.Cards.Controls.Reveal": "Reveal",
     "TC.Cards.Controls.Reset": "Reset",
     "TC.Cards.Controls.Save": "Save",
@@ -119,8 +118,7 @@
 
     "TC.Cards.Controls.Tooltip.Shuffle": "Shuffle the deck manually",
     "TC.Cards.Controls.Tooltip.Deal": "Deal one or more cards from the deck to a given player",
-    "TC.Cards.Controls.Tooltip.Peek": "Reveal all cards in the deck (to the GM only)",
-    "TC.Cards.Controls.Tooltip.Hide": "Stop peeking the cards in the deck",
+    "TC.Cards.Controls.Tooltip.Peek": "Reveal or hide all cards in the deck (to the GM only)",
     "TC.Cards.Controls.Tooltip.Reveal": "Reveal one or more cards from the deck to a given player",
     "TC.Cards.Controls.Tooltip.RevealCard": "Reveal this card to a given player",
     "TC.Cards.Controls.Tooltip.Reset": "Return all cards from players' hands and the discard to the deck",

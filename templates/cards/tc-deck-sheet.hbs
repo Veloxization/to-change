@@ -1,7 +1,9 @@
 <form class="cards-sheet {{cssClass}}" autocomplete="off">
     <header class="sheet-header flexrow">
-        <img src="{{document.img}}" data-edit="img" title="{{document.name}}" height="64" width="64"/>
-        <h1 class="cardsname"><input name="name" type="text" value="{{document.name}}" placeholder="{{ localize "TC.Cards.FutureDeck" }}"/></h1>
+        <img class="card-face" src="{{document.img}}" title="{{document.name}}"/>
+        <h1 class="cardsname"></h1>
+            <input type="text" name="name" value="{{document.name}}" placeholder="{{ localize "TC.Cards.FutureDeck" }}"/>
+        </h1>
     </header>
     <body>
         <nav class="sheet-navigation tabs" data-group="primary">
@@ -17,11 +19,13 @@
                 {{> "systems/to-change/templates/cards/parts/cards-list.hbs"}}
             </div>
         </div>
-        <button title="{{ localize "TC.Cards.Controls.Tooltip.Shuffle" }}">{{ localize "TC.Cards.Controls.Shuffle"}}</button>
-        <button title="{{ localize "TC.Cards.Controls.Tooltip.Deal" }}">{{ localize "TC.Cards.Controls.Deal"}}</button>
-        <button title="{{ localize "TC.Cards.Controls.Tooltip.Peek" }}">{{ localize "TC.Cards.Controls.Peek"}}</button>
-        <button title="{{ localize "TC.Cards.Controls.Tooltip.Reveal" }}">{{ localize "TC.Cards.Controls.Reveal"}}</button>
-        <button title="{{ localize "TC.Cards.Controls.Tooltip.Reset" }}">{{ localize "TC.Cards.Controls.Reset"}}</button>
-        <button title="{{ localize "TC.Cards.Controls.Tooltip.Save" }}">{{ localize "TC.Cards.Controls.Save"}}</button>
     </body>
+    <footer class="tc-card-buttons flexrow">
+        <button class="tc-cards-button" id="shuffle-button" title="{{ localize "TC.Cards.Controls.Tooltip.Shuffle" }}" type="button">{{ localize "TC.Cards.Controls.Shuffle"}}</button>
+        <button class="tc-cards-button" title="{{ localize "TC.Cards.Controls.Tooltip.Deal" }}">{{ localize "TC.Cards.Controls.Deal"}}</button>
+        <button class="tc-cards-button" id="peek-button" type="button" title="{{ localize "TC.Cards.Controls.Tooltip.Peek" }}">{{ localize "TC.Cards.Controls.Peek"}}</button>
+        <button class="tc-cards-button" title="{{ localize "TC.Cards.Controls.Tooltip.Reveal" }}">{{ localize "TC.Cards.Controls.Reveal"}}</button>
+        <button class="tc-cards-button" title="{{ localize "TC.Cards.Controls.Tooltip.Reset" }}">{{ localize "TC.Cards.Controls.Reset"}}</button>
+        <button class="tc-cards-button" title="{{ localize "TC.Cards.Controls.Tooltip.Save" }}" type="submit">{{ localize "TC.Cards.Controls.Save"}}</button>
+    </footer>
 </form>
